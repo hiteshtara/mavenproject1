@@ -41,9 +41,9 @@ public class ExampleFO2PDF {
             outDir.mkdirs();
 // /Users/mukadder/NetBeansProjects/mavenproject1/src/main/resources/pad
             // Setup input and output files
-            File xmlfile = new File(baseDir, "/Users/mukadder/NetBeansProjects/mavenproject1/src/main/resources/pad/test.xml");
-            File xsltfile = new File(baseDir, "/Users/mukadder/NetBeansProjects/mavenproject1/src/main/resources/pad/test.xsl");
-            File pdffile = new File(outDir, "/Users/mukadder/NetBeansProjects/mavenproject1/src/main/resources/pad/ResultXML2PDF.pdf");
+            File xmlfile = new File(baseDir, "//Users//mukadder//git//mavenproject1//src//main//resources//pad//test.xml");
+            File xsltfile = new File(baseDir, "//Users//mukadder//git//mavenproject1//src//main//resources//pad//test.xsl");
+            File pdffile = new File(outDir, "//Users//mukadder//git//mavenproject1//src//main//resources//pad//ResultXML2PDF.pdf");
  
             System.out.println("Input: XML (" + xmlfile + ")");
             System.out.println("Stylesheet: " + xsltfile);
